@@ -7,3 +7,6 @@ edition = "2018"
 [dependencies]
 iron = "*"
 time = "*"
+
+[profile.dev]
+opt-level = 3
